@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Kao Leangseng</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <h1>Personal Information</h1>
+      <!-- TEXT: NAME -->
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Input name" aria-describedby="">
+        <small id="sms-name" class="form-text"></small>
+      </div>
+      <!-- TEXT: PHONE NUMBER -->
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input type="text" class="form-control" id="phone" placeholder="Input phone number">
+        <small id="sms-phone" class="form-text"></small>
+      </div>
+      <!-- BUTTON: ADD AND UPDATE -->
+      <button type="button" class="btn btn-primary" id="btn-add" onclick="addPerson()">Add</button>
+      <button type="button" class="btn btn-warning" id="btn-update" onclick="updatePerson()">Update</button>
+    </form>
+    <!-- TABLE: SHOW PERSONAL INFORMATION -->
+    <table class="table table-striped">
+      <thead class="bg-success thead">
+        <tr>
+          <th scope="col" class="id">#</th>
+          <th scope="col" class="name">Name</th>
+          <th scope="col" class="phone">Phone</th>
+          <th scope="col" class="action">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <td class="id"></td>
+          <td></td>
+          <td></td>
+          <td id="center-content">
+            <button type="button" class="btn btn-primary btn-action">View</button>
+            <button type="button" class="btn btn-danger btn-action">Delete</button>
+            <button type="button" class="btn btn-warning btn-action">Edit</button>
+          </td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="js/script.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

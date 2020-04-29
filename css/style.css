@@ -1,0 +1,57 @@
+.container{
+    padding: 50px 100px;
+}
+table{
+    margin-top: 25px;
+}
+td{
+    padding: 0 !important;
+    padding-top: 12px !important;
+}
+tbody tr:hover{
+    background-color: wheat !important;
+    cursor: pointer; /*CHANGE CURSOR TO HAND SYMBAL*/
+    transition: all 0.25s ease-in-out;
+}
+.thead{
+    color: white;
+}
+.id{
+    width: 15%;
+    padding-left: 10px !important;
+}
+.name, .phone{
+    width: 25%;
+    padding-left: 0 !important;
+}
+.action{
+    width: 35%;
+    text-align: center;
+}
+#center-content{
+    text-align: center;
+    padding: 0 !important;
+}
+#btn-add{
+    width: 100px;
+    display: inline-block;
+}
+#btn-add:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+#btn-update{
+    width: 100px;
+    display: none;
+}
+#btn-update:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-action{
+    width: 75px;
+    margin: 5px 0;
+}
+#sms-name, #sms-phone{
+    color: crimson;
+}
